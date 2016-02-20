@@ -1,0 +1,61 @@
+---
+---
+
+
+footer{  
+  font-size: small;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  a{
+
+    text-decoration: none;
+    
+    &:not(.image){
+      color: #fff;
+    }
+  }
+}
+
+.img-clean{
+  background: none;
+  border-width: 1px;
+  box-shadow: none;
+  margin: 1.0em;
+}
+
+.reveal{
+  code{
+    background: #000;
+    border: 1px solid white;
+    color: green;
+    display: block;
+    font-family: monospace;
+    font-size: 50%;
+    margin-top: 1.0em;
+    padding: 5px;
+    text-align: left;
+    white-space: pre;
+  }
+  
+  section{
+
+    h1{
+      font-size: 2.5em;
+    }
+
+    img{
+      @extend .img-clean;
+    }
+    
+    img[alt='Avatar']{
+      max-height: 2.0em;
+      margin-left: 1.0em;
+      vertical-align: middle;
+      border-width: 1px;
+    }
+  }
+}
+

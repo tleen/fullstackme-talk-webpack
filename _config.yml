@@ -1,0 +1,7 @@
+title : Webpack
+description: Introduction to some basic Webpack usage
+collections:
+  slides:
+    output : false
+exclude:
+  - outline.org
