@@ -1,2 +1,48 @@
 Outline for Webpack talk
 
+* Intro
+** What is webpack
+The logical next step in bundling
+** Not just bundling
+Can do a lot of build processing: pandoras box of plugins
+*** ES6 transpiling
+*** SCSS compiling
+*** Minification
+*** Etc etc
+** Why is it gaining traction? 
+*** Lots of auto-magic
+like discovery, and dead code elimination
+*** React
+Seems to assume you know Webpack
+** Configuration stinks
+*** It is weird
+
+* Hey Node!
+Like the other build tools from the past few years its a JavaScript deal!
+** Node and NPM
+If you don't know this stuff it is time to learn it.
+** Install it as an NPM module
+Global or Local
+
+* Just a bundler
+Without plugins it just bundles modules together. Handy in itself.
+(example)
+
+* Plugins!
+All sorts of stuff, now Webpack can do whatever!
+Now webpack can do whatever :(
+
+Like a plugin? howbout three!
+webpack-deploy: https://www.npmjs.com/package/webpack-deploy
+webpack-s3-plugin: https://www.npmjs.com/package/webpack-s3-plugin
+webpack-s3-plugin: https://www.npmjs.com/package/webpack-s3-sync-plugin
+
+Didn't we just do this twice? 10% new stuff, 90% rewriting old stuff :/ 
+
+** ES6 Transpiling
+I heard you like plugins, howabout plugins for your plugins?
+
+
+* Use with other tools
+** Grunt and Gulp
+I heard you like build tools...howabout using build tools via your build tools?
