@@ -1,0 +1,15 @@
+$header-font-color: maroon;
+$header-font-size: x-large;
+
+$text-color: black;
+
+body{
+  text-align: center;
+  color: $text-color;
+  
+  header{
+    color: $header-font-color;
+    font-size: $header-font-size;
+  }
+}
+
