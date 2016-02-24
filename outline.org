@@ -8,10 +8,11 @@ Can do a lot of build processing: pandoras box of plugins
 *** ES6 transpiling
 *** SCSS compiling
 *** Minification
+*** Code Splitting
 *** Etc etc
 ** Why is it gaining traction? 
 *** Lots of auto-magic
-like discovery, and dead code elimination
+like discovery, and dead code elimination (2.0?)
 *** React
 Seems to assume you know Webpack
 ** Configuration stinks
@@ -24,10 +25,19 @@ If you don't know this stuff it is time to learn it.
 ** Install it as an NPM module
 Global or Local
 
+** Run it from command line
+** Why not another config file in your project?
+webpack.conf.js
 * Just a bundler
 Without plugins it just bundles modules together. Handy in itself.
 (example)
 
+** -p flag
+Production - minifies
+** watch
+
+* Loaders
+Whats a loader, how does it work
 * Plugins!
 All sorts of stuff, now Webpack can do whatever!
 Now webpack can do whatever :(
@@ -42,7 +52,17 @@ Didn't we just do this twice? 10% new stuff, 90% rewriting old stuff :/
 ** ES6 Transpiling
 I heard you like plugins, howabout plugins for your plugins?
 
+** Minification
+** SASS
+
+* Dev friendly stuff
+** Watch Mode
+--watch
+** Hot Reloader
+Sort of like live reload, but with state too...
 
 * Use with other tools
 ** Grunt and Gulp
 I heard you like build tools...howabout using build tools via your build tools?
+* 2.0
+If you want to start using webpack probably look at 2.0 which [is beta now](https://github.com/webpack/webpack/releases). This was all 1.0 stuff.

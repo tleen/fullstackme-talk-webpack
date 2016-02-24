@@ -6,4 +6,6 @@ group_order: 0
 
 # What is Webpack
 
-Its the natural next step in web bundling tools.
+It was the natural next step in web bundling tools.
+
+Now its everything.
